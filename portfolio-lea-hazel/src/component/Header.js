@@ -16,7 +16,11 @@ const Header = (args) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div style={{ backgroundColor: "tan" }}>
+    <div style = {{background: "#000D2E"}}>
+      {/* <img src="Sparkle.png" alt="sparkle"
+      width="50" 
+      height="50" /> */}
+
       <Navbar {...args}>
         <NavbarBrand href="/">Lea Hazel</NavbarBrand>
         <NavbarToggler onClick={toggle} />

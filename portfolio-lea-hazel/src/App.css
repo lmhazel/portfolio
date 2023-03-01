@@ -1,6 +1,19 @@
 @import 'bootstrap';
 
-.background {
-    background-color: red;
+.navbar-brand {
+    color: white;
 }
 
+.header1 {
+    color: "#1a4547";
+    /* font-family: 'Gloock'; */
+    font-style: italic;
+}
+
+.header2 {
+    color: "#1a4547";
+}
+
+.header3 {
+    color: "#1a4547";
+}
