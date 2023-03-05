@@ -7,14 +7,9 @@ CardFooter
 
 const Footer = () => {
     return(
-        <div>
-        <Card
-        className="my-2"
-        style={{
-        width: '100%'
-        }}
-        >
-            <CardFooter>
+        <div className='footer'>
+        <Card>
+            <CardFooter style={{textAlign: 'center'}}>
             © 2023 | Lea Hazel
             </CardFooter>
         </Card>
