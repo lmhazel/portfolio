@@ -1,8 +1,9 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom"
 import { BrowserRouter } from 'react-router-dom'
+import "./App.css"
 
-// import Header from "./component/Header"
+import Header from "./component/Header"
 import Footer from "./component/Footer"
 
 import Home from "./pages/Home"
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <>
     <BrowserRouter>
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
