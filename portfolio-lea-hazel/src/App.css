@@ -86,7 +86,7 @@ html {
 .aboutMe {
     color: #1a4547;
     font-size: 45px; 
-    padding-left: 70px;
+    padding-left: 80px;
     margin-bottom: 5px;
     padding-top: 200px;
     font-family: 'Gloock';
@@ -112,10 +112,16 @@ hr {
     margin-bottom: -1px;
 }
 
+span {
+    z-index: 1;
+}
+
 .aboutMePara {
-    margin: 50px 700px 0px 70px;
+    margin: 70px 150px 0px 70px;
     float: left;
-    font-size: 22px;
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
 }
 
 
@@ -157,9 +163,50 @@ hr {
 }
 
 .header {
-    padding: 25px;
-    text-align: center;
-    background: #e7ddd7;
-    color: #1a4547;
-    font-size: 23px;
+    padding: 10px;
+}
+
+.left-side-header {
+    float: left;
+}
+
+.right-side-header {
+    display: inline;
+    float: right;
+}
+
+.about-header {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.projects-header {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.contact-header {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.cursor-image {
+    content: url(./assets/images/click-image.png);
+    float: right;
+    position: relative;
+    height: 320px;
+    width: 290px;
+    top: 50%;
+    margin: 200px 200px 0px 0px;
+}
+
+.aboutme-styling {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#about {
+    margin-top: 100%;
+    padding-bottom: 25%;
 }
